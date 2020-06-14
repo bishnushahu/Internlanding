@@ -112,18 +112,20 @@ a:hover{
     top:0;
     left:0;
 }
-.carousel-caption{
-  align-items: center;
-  text-align: center;
+.up{
+  color:green;
+  
 }
 .carousel-inner{
     margin-top: -20px;
 }
 .carousel-caption{
-    margin-left: 80px;
+  
+    margin-left: 0px;
 }
 .think{
     font-size: 50px;
+    
 }
 .taral{
     font-size: 20px;
@@ -203,7 +205,9 @@ a:hover{
 
 }
 .img{
-  height:50%;
+  background-position: center;
+  position: static;
+  height:70%;
   width:100%;
   margin-top:60px;
   margin-bottom: 60px;
@@ -248,6 +252,7 @@ a:hover{
 /* global */
 
 .img-globala{
+  background-position: center;
   height:500px;
   width:100%
 }
@@ -278,6 +283,9 @@ li{
 }
 .bluee{
   color:blue;
+}
+.greye{
+  color:grey;
 }
 /* box */
 .box{
